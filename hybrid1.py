@@ -170,8 +170,8 @@ def hy():
         cipherKey=encrypt(pub,key)
     #print("Encrypting the AES symmetric key with RSA......")
         mail_content = ("Hello, \nThis mail contains all those important details that you will need to access your file.. \nIn this mail we are sending key through which you can decrypt the text file from AWS Cloud.\nThank You \n Private Key: " + str(pri) + "\n AES Symmetric Key: " + str(cipherKey)+ "\n Nonce: " + str(nonce))
-        sender_address = 'cloudcomputing120@gmail.com'
-        sender_pass = 'Hateyou@2756'
+        sender_address = '<mail-address-of-sender>'
+        sender_pass = '<mail-password>'
         print(sender_pass)
         receiver_address = e2.get()
         print(receiver_address)
