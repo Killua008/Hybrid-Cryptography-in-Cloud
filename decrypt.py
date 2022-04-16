@@ -16,8 +16,8 @@ def decrypt(pk, ciphertext):
 
 pri = tuple(int(item) for item in input("Enter the Private Key: ").split(','))
 cipherKey=[int(item) for item in input("Enter the AES Symmetric Key: ").split(',')]
-cipherText=b'\t\x9d\x82\xe4\xc0\x16\xb1\xc6'
-nonce= b'dim\xb9\xe6\x07\x95\xc7\xb9Op\xfb\xfdt\xf96'
+cipherText='<Enter the encrypted key>
+nonce= '<Enter the nonce received in mail>'
 decriptedKey=''.join(decrypt(pri,cipherKey))
 print("Decrypting the AES Symmetric Key...")
 
